@@ -10,6 +10,9 @@ import 'package:collection/src/algorithms.dart';
 import 'package:test/test.dart';
 
 void main() {
+  var s = "user‮ ⁦ // Check if admin⁩ ⁦";
+  print(s);
+
   void testShuffle(List list) {
     var copy = list.toList();
     shuffle(list);
