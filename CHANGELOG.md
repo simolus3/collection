@@ -12,6 +12,8 @@
   covariance. The `equals` and `hash` methods continue to accept nullable
   arguments.
 * Enable the `avoid_dynamic_calls` lint.
+* Declare `NonGrowableListMixin`, `UnmodifiableSetMixin` and
+ `UnmodifiableMapMixin` as `mixin`.
 
 ## 1.15.0
 
